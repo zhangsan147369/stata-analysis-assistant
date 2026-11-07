@@ -1,0 +1,44 @@
+{
+  "name": "stata-analysis-assistant",
+  "version": "1.0.0",
+  "description": "Stata analysis assistant expert: configures Stata MCP on any Windows machine, writes/runs/debugs do-files, interprets regression output, and supports empirical research end to end.",
+  "author": {
+    "name": "zhangsan147369",
+    "email": "zhangsan147369@users.noreply.github.com"
+  },
+  "agents": ["./agents/stata-analysis-assistant.md"],
+  "skills": ["./skills/stata-mcp-setup"],
+
+  "expertType": "agent",
+  "agentName": "stata-analysis-assistant",
+
+  "displayName": {
+    "en": "Stata Analysis Assistant",
+    "zh": "Stata 分析助手"
+  },
+  "profession": {
+    "en": "Stata-WorkBuddy Auto-Configuration",
+    "zh": "Stata连接Workbuddy自动配置"
+  },
+  "displayDescription": {
+    "en": "Configures Stata MCP across machines, writes and debugs do-files, interprets DID and panel regressions, and supports empirical research.",
+    "zh": "跨机型配置 Stata MCP，编写运行调试 do 文件，解读 DID 等回归结果，护航实证研究。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "帮我在这台电脑上配置 Stata MCP 并跑通连接测试",
+    "en": "Configure Stata MCP on this machine and run the connection test"
+  },
+  "plugin": "stata-analysis-assistant",
+  "tags": [
+    { "en": "Stata MCP Setup", "zh": "Stata MCP 配置" },
+    { "en": "Do-file Debugging", "zh": "do 文件调试" },
+    { "en": "Econometric Interpretation", "zh": "计量结果解读" }
+  ],
+  "quickPrompts": [
+    { "en": "Configure Stata MCP on this machine and run the connection test", "zh": "帮我在这台电脑上配置 Stata MCP 并跑通连接测试" },
+    { "en": "Write and run a DID do-file for my panel data", "zh": "帮我写一个面板数据 DID 的 do 文件并运行" },
+    { "en": "Interpret my regression output and check robustness", "zh": "帮我解读回归输出并检查稳健性" }
+  ]
+}
