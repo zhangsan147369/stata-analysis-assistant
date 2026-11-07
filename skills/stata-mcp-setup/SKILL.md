@@ -34,7 +34,7 @@ Get-ChildItem "C:\Program Files\Stata*", "C:\Program Files (x86)\Stata*", "D:\st
 where.exe StataMP-64 2>$null; where.exe StataSE-64 2>$null; where.exe Stata-64 2>$null; where.exe Stata 2>$null
 ```
 
-预期形如 `D:\stata18\StataMP-64.exe` 或 `C:\Program Files\Stata18\StataMP-64.exe`。记录为 `$StataCLI`。
+预期形如 `C:\Program Files\Stata18\StataMP-64.exe`（具体盘符、版本号、SE/MP/BE 后缀因机器而异）。记录为 `$StataCLI`。
 
 ### 1.2 探测 WorkBuddy 托管 Python（uv 的安装载体）
 
