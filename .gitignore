@@ -1,0 +1,24 @@
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Stata runtime artifacts
+*.log
+*.smcl
+*.dta
+*.gph
+ST_*.tmp
+.stata_mcp_write_test
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local editor / WorkBuddy state
+.workbuddy/
+*.zip
+
+# Generated avatar (binary, see avatars/README.md)
+avatars/expert.png
